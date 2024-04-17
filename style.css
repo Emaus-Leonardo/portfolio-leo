@@ -167,6 +167,15 @@ section {
   margin-bottom: 10px;
 }
 
+.row2 {
+  border: solid 1px;
+  color: black;
+  width: 20%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 span {
   color: rgb(32, 138, 0);
 }
@@ -191,13 +200,13 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 60vh;
+  height: 80vh;
 }
 
 .section__pic-container {
   display: flex;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 }
 
@@ -287,6 +296,31 @@ section {
   gap: 1rem;
 }
 
+.btn2 {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  background-color: black;
+  font-weight: 400;
+  transition: .3s;
+}
+
+.btn2:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.btn2-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -297,15 +331,14 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+
+  background-color: black;
+
+  width: 500px;
+  height: 500px;
 }
 
-.about-details-container {
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
+.about-containers {
   display: flex;
 }
 
@@ -330,12 +363,91 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
-
 .text-container {
   text-align: center;
+}
+
+/* Project Section */
+
+#projects {
+  position: relative;
+}
+
+.section__text__p3 {
+  text-align: center;
+}
+
+.section-container-project {
+  gap: 4rem;
+  height: 80%;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container-div1 {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: black;
+}
+
+.container-div2 {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: black;
+}
+
+.container-div3 {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: black;
+}
+
+.container-div4 {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: black;
+}
+
+.container-div5 {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: black;
+}
+
+.container-div6 {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: black;
 }
