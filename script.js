@@ -6,8 +6,8 @@ function toggleMenu() {
 }
 
 var typed = new Typed(".auto-type", {
-    strings: ["LÉO", " A FRONTEND DEVELOPER", "A VIDEO EDITOR"],
-    typeSpeed: 100,
+    strings: ["LÉO", " A FRONTEND <br/> DEVELOPER", "A VIDEO EDITOR"],
+    typeSpeed: 110,
     backSpeed: 90,
     loop: true
 })
