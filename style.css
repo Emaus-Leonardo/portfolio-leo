@@ -41,16 +41,16 @@ a,
 /* project animation */
 
 .section-container-project :nth-child(3) {
-  transition-delay: 400ms;
+  transition-delay: 50ms
 }
 
 .section-container-project :nth-child(2) {
-  transition-delay: 700ms;
+  transition-delay: 100ms;
 }
 
 .section-container-project :nth-child(1) {
-  transition-delay: 900ms;
-}
+  transition-delay: 150ms;
+} 
 
 /* DESK NAV */
 
@@ -378,9 +378,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-
   background-color: black;
-
   width: 500px;
   height: 500px;
 }
@@ -427,10 +425,8 @@ section {
 .section-container-project {
   gap: 4rem;
   height: 80%;
-
   display: flex;
   justify-content: center;
-
 }
 
 .container-div1 {
@@ -530,12 +526,12 @@ section {
   background-color: #272727;
   padding: 10px;
   box-sizing: border-box;
-  transition: all .3s ease;
+  transition: all .3s ease-out;
   transform: translateY(0);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  z-index: 3;
+  z-index: 2;
 }
 
 .overlay {
@@ -561,21 +557,31 @@ section {
 }
 
 .title-project {
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   text-align: center;
-  
+  font-weight: 600;
 }
 
 .btn-project {
-  border: solid white 1px;
-  color: white;
-  width: 100px;
-  height: 40px;
+  margin-top: 2rem;
   cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
   background-color: transparent;
-  margin: 5px;
+  font-weight: 400;
+  transition: all .2s ;
 }
+
+.btn-project:hover {
+  color: black;
+  background-color: white;
+}
+
 
 /* teste */
 
