@@ -415,7 +415,7 @@ section {
 
 #projects {
   position: relative;
-  height: 115vh;
+  height: 125vh;
 }
 
 .section__text__p3 {
@@ -430,6 +430,13 @@ section {
   flex-wrap: wrap;
 }
 
+.card-1 {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+
 .container-div1 {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -439,7 +446,6 @@ section {
   align-items: center;
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .container-div2 {
@@ -530,6 +536,8 @@ section {
   justify-content: center;
   flex-direction: column;
   z-index: 2;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .overlay {
@@ -590,15 +598,6 @@ section {
 .btn-project:hover {
   color: black;
   background-color: white;
-}
-
-.card-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  margin-top: 40px;
-  margin-right: -4rem;
 }
 
 /* teste */
