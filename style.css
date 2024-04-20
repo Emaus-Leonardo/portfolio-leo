@@ -303,10 +303,9 @@ section {
 .education-icon {
   height: 2rem;
   margin-top: 1rem;
-  
 }
 
-.work-icon{
+.work-icon {
   height: 30px;
 }
 
@@ -422,9 +421,10 @@ section {
   display: flex;
   gap: 2rem;
   flex-direction: column;
-  background-color: #061C29;
+  background-color: #222222;
   border-radius: 8px;
   padding: 15px;
+  font-size: 13px;
 }
 
 .text-about {
@@ -470,7 +470,6 @@ section {
   text-align: center;
 }
 
-
 .profile-pic2 {
   width: 400px;
   height: 506px;
@@ -479,8 +478,9 @@ section {
   margin-left: -50px;
   transition: all 1.5s;
   opacity: 1;
-}
+box-shadow: -3px 20px 81px -13px rgb(163, 163, 163);
 
+}
 /* Project Section */
 
 #projects {
@@ -514,7 +514,7 @@ section {
   width: 300px;
   height: 300px;
   align-items: center;
-  background-color: #DADCDE;
+  background-color: #dadcde;
   display: flex;
   justify-content: center;
   border-radius: 8px;
@@ -527,7 +527,7 @@ section {
   width: 300px;
   height: 300px;
   align-items: center;
-  background-color: #DADCDE;
+  background-color: #dadcde;
   display: flex;
   justify-content: center;
   border-radius: 8px;
@@ -540,7 +540,7 @@ section {
   width: 300px;
   height: 300px;
   align-items: center;
-  background-color: #DADCDE;
+  background-color: #dadcde;
   display: flex;
   justify-content: center;
   border-radius: 8px;
@@ -553,7 +553,7 @@ section {
   width: 300px;
   height: 300px;
   align-items: center;
-  background-color: #DADCDE;
+  background-color: #dadcde;
   display: flex;
   justify-content: center;
   border-radius: 8px;
@@ -566,7 +566,7 @@ section {
   width: 300px;
   height: 300px;
   align-items: center;
-  background-color: #DADCDE;
+  background-color: #dadcde;
   display: flex;
   justify-content: center;
   border-radius: 8px;
@@ -579,7 +579,7 @@ section {
   width: 300px;
   height: 300px;
   align-items: center;
-  background-color: #DADCDE;
+  background-color: #dadcde;
   display: flex;
   justify-content: center;
   border-radius: 8px;
