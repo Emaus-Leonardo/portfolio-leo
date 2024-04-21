@@ -9,7 +9,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-html {
+html { 
   scroll-behavior: smooth;
 }
 
@@ -43,9 +43,6 @@ a,
 }  */
 
 /* project animation */
-.title-my-project :f {
-  transition-delay: 50ms;
-}
 
 .section-container-project :nth-child(3) {
   transition-delay: 50ms;
@@ -131,11 +128,15 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: transparent;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+  color: rgb(32, 138, 0);
 }
 
 .menu-links a {
@@ -498,6 +499,75 @@ section {
   margin-top: 22.3rem;
   display: flex;
   align-self: center;
+  opacity: 1;
+}
+
+/* experience section */
+
+#myskills {
+  position: relative;
+  height: 96vh;
+}
+
+.container_exp {
+  gap: 4rem;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo_frontend {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: rgb(53, 53, 53) solid 4px;
+  border-radius: 6px;
+  width: 500px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  transition: all 1.3s;
+}
+
+.conteudo_backend {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: rgb(53, 53, 53) solid 4px;
+  border-radius: 6px;
+  width: 500px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  transition: all 1.3s;
+}
+
+.frontend-container {
+  font-weight: 200;
+  width: 500px;
+  display: flex;
+  gap: 2rem;
+  background-color: #DADCDE;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.backend-container {
+  font-weight: 200;
+  width: 500px;
+  display: flex;
+  gap: 2rem;
+  background-color: #DADCDE;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Project Section */
@@ -642,6 +712,7 @@ section {
   z-index: 2;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
+
 }
 
 .overlay {
@@ -718,6 +789,11 @@ section {
   color: #061c29;
   font-size: 3rem;
   text-align: center;
+}
+
+.section__text__p1__projects {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .btn-project {
