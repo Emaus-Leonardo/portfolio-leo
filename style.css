@@ -43,6 +43,9 @@ a,
 }  */
 
 /* project animation */
+.title-my-project :f {
+  transition-delay: 50ms;
+}
 
 .section-container-project :nth-child(3) {
   transition-delay: 50ms;
@@ -285,6 +288,8 @@ section {
   text-align: center;
 }
 
+
+
 #socials-container {
   display: flex;
   justify-content: center;
@@ -392,7 +397,7 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
   background-color: transparent;
-  border: rgb(53, 53, 53) solid 2px;
+  border: rgb(53, 53, 53) solid 4px;
   border-radius: 6px;
   width: 100%;
   height: 550px;
@@ -406,7 +411,7 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
   background-color: transparent;
-  border: rgb(53, 53, 53) solid 2px;
+  border: rgb(53, 53, 53) solid 4px;
   border-radius: 6px;
   width: 500px;
   height: 550px;
@@ -421,25 +426,31 @@ section {
   display: flex;
   gap: 2rem;
   flex-direction: column;
-  background-color: #222222;
   border-radius: 8px;
   padding: 15px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about-text2 {
+  font-weight: 200;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .text-about {
-  color: #f3f3f3;
+  color: #000000;
 }
 
-/* .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  background-color: black;
-  color: white;
-  width: 500px;
-  height: 500px;
-} */
+.text-about2 {
+  color: #000000;
+  transition: all 1.5s;
+}
 
 .about-containers {
   display: flex;
@@ -478,9 +489,17 @@ section {
   margin-left: -50px;
   transition: all 1.5s;
   opacity: 1;
-box-shadow: -3px 20px 81px -13px rgb(163, 163, 163);
-
+  box-shadow: -3px 20px 81px -13px rgb(163, 163, 163);
 }
+
+.img-cat {
+  position: absolute;
+  width: 350px;
+  margin-top: 22.3rem;
+  display: flex;
+  align-self: center;
+}
+
 /* Project Section */
 
 #projects {
@@ -693,6 +712,12 @@ box-shadow: -3px 20px 81px -13px rgb(163, 163, 163);
   color: white;
   text-align: center;
   font-weight: 600;
+}
+
+.title-my-project {
+  color: #061c29;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .btn-project {
