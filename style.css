@@ -548,13 +548,14 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
   background-color: transparent;
-  border: black solid 2px;
+  border: black solid 3px;
   border-radius: 6px;
   width: 500px;
   height: 600px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   padding: 20px;
+  transition: all 2s;
 }
 
 .frontend-container {
@@ -565,10 +566,26 @@ section {
   font-size: 14px;
 }
 
+.container2 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: black solid 3px;
+  border-radius: 6px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px;
+  transition: all 2s;
+}
+
 .frontend-container li {
   margin: 30px 0;
   list-style: none;
-
+  transition: all 2s;
 }
 
 .bar {
@@ -589,42 +606,42 @@ section {
 .bar span {
   height: 20px;
   float: left;
-  background: linear-gradient(135deg, #061c29 0%, #022133 100%);
+  background: linear-gradient(135deg, #04283d 0%, #015d92 100%);
 }
 
 .html {
   width: 90%;
   animation: html 5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 .css {
   width: 70%;
   animation: css 5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 .javascript {
   width: 40%;
   animation: javascript 5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 .bootstrap {
   width: 55%;
   animation: bootstrap 5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 .nodejs {
   width: 45%;
   animation: nodejs 5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 .python {
   width: 35%;
   animation: python 5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 @keyframes html {
