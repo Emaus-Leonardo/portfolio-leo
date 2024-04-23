@@ -290,6 +290,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  width: 30%;
 }
 
 .section__text p {
@@ -492,6 +493,11 @@ section {
   height: 80%;
 }
 
+.section-container_1 {
+  gap: 1rem;
+  height: 80%;
+}
+
 .profile-pic2 {
   width: 400px;
   height: 506px;
@@ -684,7 +690,7 @@ section {
 
 #projects {
   position: relative;
-  height: 125vh;
+  height: 100vh;
 }
 
 .section__text__p3 {
