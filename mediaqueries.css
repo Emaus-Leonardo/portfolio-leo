@@ -1,8 +1,27 @@
-@media screen  and (max-width: 1200px) {
-    #desktop-nav {
-        display: none;
-    }
-    #hamburger-nav {
-        display: flex;
-    }
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .title {
+    font-size: 4rem;
+  }
+  #projects {
+    height: 150vh;
+  }
+  #projects {
+    height: 150vh;
+  }
+  .container-div {
+    gap: 4rem;
+  }
+
+  .title-project {
+    font-size: 24px;
+  }
 }

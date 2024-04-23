@@ -213,7 +213,7 @@ a:hover {
 
 .hidden {
   opacity: 0;
-  transform: translateX(-110%);
+  transform: translateX(-90%);
   transition: all 1s ease;
 }
 
@@ -519,6 +519,7 @@ section {
   transition: all 1.5s;
   opacity: 1;
   box-shadow: -3px 20px 81px -13px rgb(163, 163, 163);
+  transform: translateX(-10);
 }
 
 .img-cat {
@@ -550,7 +551,7 @@ section {
   background-color: transparent;
   border: black solid 3px;
   border-radius: 6px;
-  width: 500px;
+  width: 500px; 
   height: 600px;
   display: flex;
   flex-wrap: wrap;
