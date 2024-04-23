@@ -33,7 +33,7 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">My Skills</a></li>
+                <li><a href="#myskills" onclick="toggleMenu()">My Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -82,28 +82,14 @@
             <span></span>
         </div>
 
-        <p class="text-container hidden">
-            Hi my name is Emaús Leonardo, but you can call me Léo,
-            <br> I'm starting in the world of programming and I'm currently
-            <br> learning JavaScript, ReactJs, TailWind and NodeJs.
-        </p>
-
         <div class="section-container about-animation">
             <div class="about-container1 hidden">
                 <img src="assets/profile-pic-2.png" alt="my profile picture" class="profile-pic2 hidden">
+
                 <div class="about-text">
                     <p class="text-about hidden">
-                        - I am a sixth-semester student in the Analysis and Development of Systems program at the
-                        <strong> University of Western Sao Paulo in Presidente Prudente/SP. </strong>
-                    </p>
-                    <p class="text-about hidden"> - Tech Support Intern at Rancharia City Hall/SP for 1 year and 6
-                        months</p>
-
-                    <!--                     <p class="text-about hidden"> - Estagiario no Suporte Tecnico na Prefeitura de Rancharia/SP a 1 e 6
-                        meses</p> -->
-
-                    <p class="text-about hidden"> - Currently, I am diving into the world of Front End development with
-                        the
+                        - Hi my name is Emaús Leonardo, but you can call me Léo, Currently, I
+                        am diving into the world of Front End development with the
                         goal of improving my skills to position myself in the market. I am passionate about
                         creating impressive online experiences for users and keeping up with best practices
                         and trends. My portfolio demonstrates what I have done so far and my determination
@@ -111,7 +97,17 @@
                         projects and help creative and dynamic teams.
                     </p>
 
-                    <!--                     <p class="text-about hidden"> - Atualmente, estou mergulhando no universo do desenvolvimento Front
+                    <p class="text-about hidden">
+                        - I am a sixth-semester student in the Analysis and Development of Systems program at the
+                        <strong> University of Western Sao Paulo in Presidente Prudente/SP. </strong>
+                    </p>
+                    <p class="text-about hidden"> - Tech Support Intern at Rancharia City Hall/SP for 1 year and 6
+                        months</p>
+
+                    <!--  <p class="text-about hidden"> - Estagiario no Suporte Tecnico na Prefeitura de Rancharia/SP a 1 e 6
+                        meses</p> -->
+
+                    <!--  <p class="text-about hidden"> - Atualmente, estou mergulhando no universo do desenvolvimento Front
                         End
                         com o objetivo de aprimorar minhas habilidades para me posicionar no mercado.
                         Sou apaixonado por criar experiências online impressionantes para os usuários.
@@ -141,11 +137,38 @@
         </div>
     </section>
 
-    <section id="myskills" class=" ">
+    <section id="myskills" class="hidden">
         <p class="section__text__p3 hidden">Explore</p>
         <h1 class="title hidden">My Skills</h1>
 
         <div class="container_exp hidden">
+            <div class="container2 hidden">
+                <div>
+                    <img src="assets/html.svg" alt="" class="icon-html">
+                    <img src="assets/css.svg" alt="" class="icon-css">
+                    <img src="assets/js.svg" alt="" class="icon-js">
+                    <img src="assets/bootstrap.svg" alt="" class="icon-bs">
+                    <img src="assets/node-js.svg" alt="" class="icon-node">
+                    <img src="assets/python.svg" alt="" class="icon-python">
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam aut eveniet consectetur ea vitae recusandae
+                    autem voluptas doloremque labore qui, odio quasi non
+                    voluptate sed consequuntur totam consequatur, nostrum
+                    ipsum.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam aut eveniet consectetur ea vitae recusandae
+                    autem voluptas doloremque labore qui, odio quasi non
+                    voluptate sed consequuntur totam consequatur, nostrum
+                    ipsum.
+                </p>
+            </div>
+
             <div class="conteudo_frontend hidden ">
                 <div class="frontend-container">
                     <div class="row3 hidden">
@@ -180,33 +203,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="container2">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Quibusdam aut eveniet consectetur ea vitae recusandae 
-                    autem voluptas doloremque labore qui, odio quasi non 
-                    voluptate sed consequuntur totam consequatur, nostrum
-                    ipsum.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Quibusdam aut eveniet consectetur ea vitae recusandae 
-                    autem voluptas doloremque labore qui, odio quasi non 
-                    voluptate sed consequuntur totam consequatur, nostrum
-                    ipsum.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Quibusdam aut eveniet consectetur ea vitae recusandae 
-                    autem voluptas doloremque labore qui, odio quasi non 
-                    voluptate sed consequuntur totam consequatur, nostrum
-                    ipsum.
-                </p>
-            </div>
-
         </div>
 
         <div>
@@ -309,6 +305,34 @@
         </div>
     </section>
 
+    <section id="contact" class="hidden">
+        <p class="section__text__p1 hidden">Get in Touch</p>
+        <h1 class="title hidden">Contact Me</h1>
+        <div class="contact-info-upper-container hidden">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:examplemail@gmail.com">emausleonardocontato@gmail.com
+                </a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://linkedin.com/in/emaús-leonardo">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myskills">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Emaús Leonardo. All Rights Reserved.</p>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>

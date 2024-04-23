@@ -65,7 +65,7 @@ a,
 }
 
 .skillsanimation :nth-child(2) {
-  transition-delay: 100ms;
+  transition-delay: 100ms ;
 }
 
 .skillsanimation :nth-child(3) {
@@ -95,6 +95,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  
 }
 
 .nav-links {
@@ -223,13 +224,6 @@ a:hover {
   transition: all 2s ease;
 }
 
-section {
-  padding: top 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-}
 
 .section-container {
   display: flex;
@@ -332,15 +326,6 @@ section {
   cursor: pointer;
   height: 2rem;
   margin-top: 1rem;
-}
-
-.education-icon {
-  height: 2rem;
-  margin-top: 1rem;
-}
-
-.work-icon {
-  height: 30px;
 }
 
 /* BUTTONS */
@@ -474,6 +459,7 @@ section {
 
 .text-about {
   color: #000000;
+  word-spacing: 5px;
 }
 
 .text-about2 {
@@ -506,10 +492,6 @@ section {
   height: 80%;
 }
 
-.text-container {
-  text-align: center;
-}
-
 .profile-pic2 {
   width: 400px;
   height: 506px;
@@ -519,7 +501,6 @@ section {
   transition: all 1.5s;
   opacity: 1;
   box-shadow: -3px 20px 81px -13px rgb(163, 163, 163);
-  transform: translateX(-10);
 }
 
 .img-cat {
@@ -612,36 +593,36 @@ section {
 
 .html {
   width: 90%;
-  animation: html 5s;
+  animation: html 4s;
   animation-delay: 1s;
 }
 
 .css {
   width: 70%;
-  animation: css 5s;
+  animation: css 4s;
   animation-delay: 1s;
 }
 
 .javascript {
   width: 40%;
-  animation: javascript 5s;
+  animation: javascript 4s;
   animation-delay: 1s;
 }
 
 .bootstrap {
   width: 55%;
-  animation: bootstrap 5s;
+  animation: bootstrap 4s;
   animation-delay: 1s;
 }
 
 .nodejs {
   width: 45%;
-  animation: nodejs 5s;
+  animation: nodejs 4s;
   animation-delay: 1s;
 }
 .python {
   width: 35%;
-  animation: python 5s;
+  animation: python 4s;
   animation-delay: 1s;
 }
 
@@ -944,14 +925,54 @@ section {
   background-color: white;
 }
 
-/* teste */
+/* CONTACT */
 
-/* .card {
-  transition: transform 0.3s ease;
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
 }
 
-.card:hover {
-  transform: translateY(10px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  margin: 2rem auto;
+  padding: 0.5rem;
 }
- */
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+  margin-bottom: 15px;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* footer */
+
+footer {
+  height: 26vh;
+  margin: 0;
+  background-color: #DADCDE;
+}
+
+footer p {
+  text-align: center;
+}
