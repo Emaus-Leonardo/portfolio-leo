@@ -1,22 +1,40 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 50vh;
     margin-bottom: 6rem;
   }
-  .about-container {
+  .about-container1 {
+    height: auto;
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
-    height: fit-content;
+  .img-cat{
+    display: none;
   }
   #contact {
-    margin-top: 10rem;
+    height: fit-content;
   }
   .section__text{
     width: auto;
   }
-  
+}
+
+@media screen and (max-width: 1800px) {
+  #about {
+    height: fit-content;
+  }
+  .section-container_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .text-about {
+    font-size: auto;
+    word-spacing: 7px; 
+    overflow: auto;
+  }
+  .img-cat {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -64,6 +82,7 @@
   }
 }
 
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -80,7 +99,7 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers,
+  .about-container,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
@@ -117,4 +136,10 @@
   .text-container {
     text-align: justify;
   }
+  .text-about,
+  .text-about2 {
+    font-size: 14px; 
+    word-spacing: 3px; 
+  }
 }
+
