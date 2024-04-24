@@ -18,13 +18,20 @@
   }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1700px) {
+  .section-container_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1801px) {
   #about {
     height: fit-content;
   }
   .section-container_1 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
   .text-about {
