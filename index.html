@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="darkMode.css">
     <title>My Portfolio</title>
 </head>
 
@@ -15,6 +16,7 @@
         <div class="logo">Léo</div>
         <div>
             <ul class="nav-links">
+                <input type="checkbox" name="checkbox" id="chk">
                 <li><a href="#about">About</a></li>
                 <li><a href="#myskills">My Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -149,7 +151,7 @@
                         <img src="assets/python.svg" alt="" class="icon-python">
                     </div>
     
-                    <p>
+                    <p class="p-skill">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Quibusdam aut eveniet consectetur ea vitae recusandae
                         autem voluptas doloremque labore qui, odio quasi non
@@ -157,7 +159,7 @@
                         ipsum.
                     </p>
     
-                    <p>
+                    <p class="p-skill">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Quibusdam aut eveniet consectetur ea vitae recusandae
                         autem voluptas doloremque labore qui, odio quasi non
@@ -306,7 +308,8 @@
             </div>
         </div>
         <div>
-            <img src="./assets/arrowUp.png" alt="Arrow icon" class="icon arrow"
+            
+            <img src="./assets/arrowUp.png" alt="Arrow icon" id="arrow" class="icon arrow"
                 onclick="location.href='./#'" />
         </div>
     </section>

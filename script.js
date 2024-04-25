@@ -26,3 +26,18 @@ var typed = new Typed(".auto-type", {
     backSpeed: 90,
     loop: true
 })
+
+const arrowImg = document.getElementById('arrow');
+const themeSwitch = document.getElementById('chk');
+
+themeSwitch.addEventListener('change', () => {
+    document.body.classList.toggle('dark');
+});
+
+themeSwitch.addEventListener('change', () => {
+    if (themeSwitch.checked) {
+        arrowImg.src = './assets/arrowUpWhite.png';
+    } else {
+        arrowImg.src = './assets/arrowUp.png';
+    }
+});

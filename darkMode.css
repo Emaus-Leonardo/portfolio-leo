@@ -1,0 +1,128 @@
+body.dark {
+  background-color: #2d3748;
+}
+
+.dark p {
+  color: #ffffff;
+}
+
+.dark a {
+  color: #ffffff;
+}
+
+.dark a:hover {
+  color: #165fd2;
+  text-decoration-color: #165fd2;
+}
+
+.dark .logo {
+  color: #ffffff;
+}
+
+.dark h1 {
+  color: #ffffff;
+}
+
+.dark h3 {
+  color: #000000;
+}
+
+.dark footer {
+  background-color: #485563;
+}
+
+.dark .text-about {
+  color: black;
+}
+
+.dark .text-about2{
+  color: #000000;
+}
+
+.dark .row {
+ color: #ffffff;
+}
+
+.dark .row2 {
+  color: #ffffff;
+}
+
+.dark .p-skill {
+  color: #000000;
+} 
+
+.dark .title-project {
+  color: #000000;
+}
+
+.dark .profile-pic2  {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .about-container1{
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .about-container2  {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .container2 {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .conteudo_frontend {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .container-div1 {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .container-div2 {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .container-div3 {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .container-div4 {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .container-div5 {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .container-div6 {
+  box-shadow: 0 2px 3px #302f2f;
+}
+
+.dark .card-details {
+  box-shadow: 0 2px 3px #302f2f;
+
+}
+
+.dark .btn {
+  color: white;
+  background-color: #2D3748;
+  border: #ffffff solid 2px;
+}
+
+.dark .btn:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.dark .btn2 {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: #ffffff solid 2px;
+}
+
+.dark .btn2:hover {
+  color: #000000;
+  background-color: #2D3748;
+  border: #000000 solid 2px;
+}
