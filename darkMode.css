@@ -1,5 +1,5 @@
 body.dark {
-  background-color: #2d3748;
+  background-color: #212428;
 }
 
 .dark p {
@@ -11,8 +11,8 @@ body.dark {
 }
 
 .dark a:hover {
-  color: #165fd2;
-  text-decoration-color: #165fd2;
+  color: #7BA2F7;
+  text-decoration-color: #7BA2F7;
 }
 
 .dark .logo {
@@ -24,19 +24,19 @@ body.dark {
 }
 
 .dark h3 {
-  color: #000000;
+  color: #ffffff;
 }
 
 .dark footer {
-  background-color: #485563;
+  background-color: #121212;
 }
 
 .dark .text-about {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .dark .text-about2{
-  color: #000000;
+  color: #ffffff;
 }
 
 .dark .row {
@@ -48,65 +48,85 @@ body.dark {
 }
 
 .dark .p-skill {
-  color: #000000;
+  color: #ffffff;
 } 
 
 .dark .title-project {
-  color: #000000;
+  color: #7BA2F7;
 }
 
 .dark .profile-pic2  {
-  box-shadow: 0 2px 3px #302f2f;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .about-container1{
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .about-container2  {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .container2 {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .conteudo_frontend {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .container-div1 {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .container-div2 {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .container-div3 {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .container-div4 {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .container-div5 {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .container-div6 {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 }
 
 .dark .card-details {
-  box-shadow: 0 2px 3px #302f2f;
+  background-color: #121212;
+  box-shadow: 0 2px 3px #111111;
 
+}
+
+.dark .btn-project{
+  color: #7BA2F7;
+  border: 1px solid #7BA2F7;
+}
+
+.dark .bar {
+  border: 1px solid #121212;
 }
 
 .dark .btn {
   color: white;
-  background-color: #2D3748;
+  background-color: transparent;
   border: #ffffff solid 2px;
 }
 
@@ -122,7 +142,19 @@ body.dark {
 }
 
 .dark .btn2:hover {
-  color: #000000;
-  background-color: #2D3748;
-  border: #000000 solid 2px;
+  color: #ffffff;
+  background-color: transparent;
+  border: #ffffff solid 2px;
+}
+
+.dark .contact-icon{
+  fill: #ffffff;
+}
+
+.dark path {
+  fill: #ffffff;
+}
+
+.dark .github {
+  fill: #ffffff;
 }

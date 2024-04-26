@@ -19,6 +19,7 @@ p {
 
 body {
   background-color: #F0F4F9;
+  transition: all 0.3s ease-in-out;
 }
 
 h3 {
@@ -305,9 +306,14 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 35px;
   margin-top: 1rem;
 }
+
+.github {
+  color: #000000;
+}
+
 
 /* BUTTONS */
 

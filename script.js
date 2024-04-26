@@ -3,6 +3,8 @@ const myObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) =>{
         if(entry.isIntersecting){
             entry.target.classList.add('show')
+            // para o observer de cada elemento, ja que todos elementos estão visiveis
+            myObserver.unobserve(entry.target);
         } else {
             entry.target.classList.remove('show')
         }
@@ -11,6 +13,7 @@ const myObserver = new IntersectionObserver((entries) => {
 
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((elements) => myObserver.observe(elements))
+
 
 
 function toggleMenu() {
