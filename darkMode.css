@@ -120,6 +120,11 @@ body.dark {
   border: 1px solid #7BA2F7;
 }
 
+.dark .btn-project:hover{
+  color: #ffffff;
+  background-color: #7BA2F7;
+}
+
 .dark .bar {
   border: 1px solid #121212;
 }
