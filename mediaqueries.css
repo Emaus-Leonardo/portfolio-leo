@@ -7,18 +7,18 @@
     height: auto;
     flex-wrap: wrap;
   }
-  .img-cat{
+  .img-cat {
     display: none;
   }
   #contact {
     height: fit-content;
   }
-  .section__text{
+  .section__text {
     width: auto;
   }
 }
 
-@media screen and (max-width: 1400px) { 
+@media screen and (max-width: 1400px) {
   #contact {
     margin-top: 600px;
   }
@@ -42,7 +42,7 @@
   }
   .text-about {
     font-size: auto;
-    word-spacing: 7px; 
+    word-spacing: 7px;
     overflow: auto;
   }
   .img-cat {
@@ -99,7 +99,7 @@
   #profile,
   .section-container {
     display: block;
-    align-items: center;  
+    align-items: center;
   }
   .hamburger-menu {
     display: flex;
@@ -115,13 +115,21 @@
   #myskills {
     height: fit-content;
   }
+  .container2 {
+    width: 100%;
+    max-width: 70%;
+  }
+  .conteudo_frontend {
+    width: 100%;
+    max-width: 70%;
+  }
   .section__text {
     width: 100%;
   }
-  #contact{
+  #contact {
     height: auto;
     margin-top: 130em;
-  }  
+  }
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
@@ -139,7 +147,6 @@
     gap: 0.5rem;
     text-align: center;
   }
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -150,6 +157,17 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
+  }
+  #myskills {
+    height: fit-content;
+  }
+  .container2 {
+    width: 100%;
+    max-width: 70%;
+  }
+  .conteudo_frontend {
+    width: 100%;
+    max-width: 70%;
   }
   article {
     font-size: 1rem;
@@ -197,21 +215,7 @@
   }
   .text-about,
   .text-about2 {
-    font-size: 14px; 
-    word-spacing: 3px; 
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  #myskills {
-height: fit-content;
-  }
-  .container2 {
-    width: 100%;
-    max-width: 70%;
-  }
-  .conteudo_frontend {
-    width: 100%;
-    max-width: 70%;
+    font-size: 14px;
+    word-spacing: 3px;
   }
 }

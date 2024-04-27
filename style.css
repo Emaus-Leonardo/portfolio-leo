@@ -218,7 +218,7 @@ a:hover {
 
 .hidden {
   opacity: 0;
-  transform: translateX(-90%);
+  transform: translateX(-50%);
   transition: all 2s ease;
 }
 
