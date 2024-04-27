@@ -11,8 +11,8 @@ body.dark {
 }
 
 .dark a:hover {
-  color: #7BA2F7;
-  text-decoration-color: #7BA2F7;
+  color: #7ba2f7;
+  text-decoration-color: #7ba2f7;
 }
 
 .dark .logo {
@@ -35,12 +35,12 @@ body.dark {
   color: rgb(255, 255, 255);
 }
 
-.dark .text-about2{
+.dark .text-about2 {
   color: #ffffff;
 }
 
 .dark .row {
- color: #ffffff;
+  color: #ffffff;
 }
 
 .dark .row2 {
@@ -49,22 +49,22 @@ body.dark {
 
 .dark .p-skill {
   color: #ffffff;
-} 
-
-.dark .title-project {
-  color: #7BA2F7;
 }
 
-.dark .profile-pic2  {
+.dark .title-project {
+  color: #7ba2f7;
+}
+
+.dark .profile-pic2 {
   box-shadow: 0 2px 3px #111111;
 }
 
-.dark .about-container1{
+.dark .about-container1 {
   background-color: #121212;
   box-shadow: 0 2px 3px #111111;
 }
 
-.dark .about-container2  {
+.dark .about-container2 {
   background-color: #121212;
   box-shadow: 0 2px 3px #111111;
 }
@@ -112,17 +112,16 @@ body.dark {
 .dark .card-details {
   background-color: #121212;
   box-shadow: 0 2px 3px #111111;
-
 }
 
-.dark .btn-project{
-  color: #7BA2F7;
-  border: 1px solid #7BA2F7;
+.dark .btn-project {
+  color: #7ba2f7;
+  border: 1px solid #7ba2f7;
 }
 
-.dark .btn-project:hover{
+.dark .btn-project:hover {
   color: #ffffff;
-  background-color: #7BA2F7;
+  background-color: #7ba2f7;
 }
 
 .dark .bar {
@@ -152,7 +151,7 @@ body.dark {
   border: #ffffff solid 2px;
 }
 
-.dark .contact-icon{
+.dark .contact-icon {
   fill: #ffffff;
 }
 
@@ -164,3 +163,20 @@ body.dark {
   fill: #ffffff;
 }
 
+.dark .menu-links a{
+  color: #ffffff;
+  
+}
+
+.dark .menu-links a:hover{
+  color: #7ba2f7;
+}
+
+.dark .menu-links {
+  background-color: #121212;
+  box-shadow: 0px 0px 36px 9px rgba(97, 97, 97, 0.1);
+}
+
+.dark .hamburger-icon span {
+  background-color: #ffffff;
+}
