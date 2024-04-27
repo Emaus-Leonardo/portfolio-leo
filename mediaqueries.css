@@ -99,6 +99,9 @@
   body{
     overflow-x: hidden;
   }
+  .container_exp{
+    display: flex;
+  }
   #profile,
   .section-container {
     display: block;
@@ -118,7 +121,6 @@
   #myskills {
     height: fit-content;
   }
-
   .container2 {
     width: 60%;
     max-width: 100%;
@@ -133,6 +135,8 @@
   #contact {
     height: auto;
     margin-top: 130em;
+    display: flex;
+    justify-content: center;
   }
   .contact-info-container p,
   .nav-links li a {
@@ -154,6 +158,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
   #contact,
   footer {
     height: 40vh;
