@@ -113,13 +113,16 @@
     gap: 2rem;
     text-align: center;
   }
-
+  #myskills {
+    height: fit-content;
+  }
   .section__text {
     width: 100%;
   }
   .conteudo_frontend,
   .container2 {
- 
+    width: 100%;
+    max-width: 70%;
   }
   #contact{
     height: auto;
