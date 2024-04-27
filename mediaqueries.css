@@ -115,6 +115,7 @@
   }
   #myskills {
     height: fit-content;
+    max-width: 50%;
   }
   .section__text {
     width: 100%;
