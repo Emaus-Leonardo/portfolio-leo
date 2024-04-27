@@ -159,7 +159,8 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: transparent;
+  background-color: #ffffff;
+  border-radius: 8px;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
