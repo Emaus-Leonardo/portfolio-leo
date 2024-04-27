@@ -118,8 +118,8 @@
     width: 100%;
   }
   .conteudo_frontend,
-  .frontend-container {
-    width: 100%;
+  .container2 {
+    width: 70%;
     max-width: 100%;
   }
   #contact{
