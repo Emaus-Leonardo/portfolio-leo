@@ -330,7 +330,6 @@ section {
 .sun-icon,
 .moon-icon {
   cursor: pointer;
-  vertical-align: middle; 
 }
 
 #chk:checked + .moon-icon .sun-icon {
