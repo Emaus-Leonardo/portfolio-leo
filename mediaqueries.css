@@ -96,6 +96,9 @@
 }
 
 @media screen and (max-width: 770px) {
+  body{
+    overflow-x: hidden;
+  }
   #profile,
   .section-container {
     display: block;
@@ -115,13 +118,14 @@
   #myskills {
     height: fit-content;
   }
+
   .container2 {
-    width: 100%;
-    max-width: 70%;
+    width: 60%;
+    max-width: 100%;
   }
   .conteudo_frontend {
-    width: 100%;
-    max-width: 70%;
+    width: 60%;
+    max-width: 100%;
   }
   .section__text {
     width: 100%;
@@ -157,17 +161,6 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
-  }
-  #myskills {
-    height: fit-content;
-  }
-  .container2 {
-    width: 100%;
-    max-width: 70%;
-  }
-  .conteudo_frontend {
-    width: 100%;
-    max-width: 70%;
   }
   article {
     font-size: 1rem;
