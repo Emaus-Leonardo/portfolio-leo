@@ -118,11 +118,6 @@
   .section__text {
     width: 100%;
   }
-  .conteudo_frontend,
-  .container2 {
-    width: 100%;
-    max-width: 100%;
-  }
   #contact{
     height: auto;
     margin-top: 130em;
@@ -155,10 +150,6 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
-  }
-  .container2 {
-    width: 100%;
-    max-width: 100%; 
   }
   article {
     font-size: 1rem;
@@ -211,3 +202,16 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  #myskills {
+height: fit-content;
+  }
+  .container2 {
+    width: 100%;
+    max-width: 70%;
+  }
+  .conteudo_frontend {
+    width: 100%;
+    max-width: 70%;
+  }
+}
