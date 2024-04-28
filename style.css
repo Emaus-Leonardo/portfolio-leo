@@ -501,7 +501,6 @@ section {
   width: 500px;
   height: 600px;
   display: flex;
-  flex-wrap: wrap;
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0 2px 3px #e4e8f0;

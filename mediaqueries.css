@@ -101,6 +101,9 @@
   }
   .container_exp{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   #profile,
   .section-container {
@@ -180,6 +183,9 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+  }
+  .about-container a{
+    font-size: 10px;
   }
   .contact-info-container {
     margin: 0;
