@@ -99,6 +99,13 @@
   body{
     overflow-x: hidden;
   }
+  .about-contianer1{
+    width: 100%;
+    max-width: 80%;
+  }
+  .about-contianer2{
+
+  }
   .container_exp{
     display: flex;
     flex-wrap: wrap;
@@ -125,11 +132,11 @@
     height: fit-content;
   }
   .container2 {
-    width: 60%;
+    width: 70%;
     max-width: 100%;
   }
   .conteudo_frontend {
-    width: 60%;
+    width: 70%;
     max-width: 100%;
   }
   .section__text {
@@ -178,6 +185,7 @@
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
+    
   }
   .about-container,
   .contact-info-upper-container,

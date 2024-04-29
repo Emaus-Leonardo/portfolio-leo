@@ -408,8 +408,8 @@ section {
 }
 
 .about-container2 {
-  width: 100%;
-  max-width: 500px;
+  width: 500px;
+  max-width: 75%;
   height: 550px;
   transition: all 2s;
   background-color: #ffffff;
