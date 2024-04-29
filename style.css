@@ -402,14 +402,14 @@ section {
 
 .about-container1 {
   width: 100%;
-  max-width: 75%;
+  max-width: 85%;
   height: 550px;
   background-color: #ffffff;
 }
 
 .about-container2 {
   width: 500px;
-  max-width: 75%;
+  max-width: 85%;
   height: 550px;
   transition: all 2s;
   background-color: #ffffff;
