@@ -559,37 +559,37 @@ section {
 .html {
   width: 90%;
   animation: html 5s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .css {
   width: 70%;
   animation: css 5s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .javascript {
   width: 40%;
   animation: javascript 5s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .bootstrap {
   width: 55%;
   animation: bootstrap 5s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .nodejs {
   width: 45%;
   animation: nodejs 5s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .python {
   width: 35%;
   animation: python 5s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 @keyframes html {
