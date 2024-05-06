@@ -465,7 +465,6 @@ section {
   filter: grayscale(1);
   transition: all 1.5s;
   opacity: 1;
-  margin-top: 10px;
   box-shadow: 0 2px 3px #e4e8f0;
 }
 
